@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const BASE = 'http://localhost:5700';
 
-const href = BASE + '/hello-world' + '?toCase=SNAKE';
+const href = BASE + '' + '?toCase=notValidCase';
 
 console.log(href);
 
